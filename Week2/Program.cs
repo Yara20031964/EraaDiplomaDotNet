@@ -53,7 +53,7 @@ while (true)
     // Add number
     else if (choice == "A")
     {
-        Console.Write("Please the number taht you want to add: ");
+        Console.Write("Please enter the number that you want to add: ");
         int Addednum = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine();
         nums.Add(Addednum);
@@ -116,7 +116,7 @@ while (true)
     // Find a number
     else if (choice == "F")
     {
-        Console.Write("Please the number that you want to find it: ");
+        Console.Write("Please enter the number that you want to find it: ");
         int num = Convert.ToInt32(Console.ReadLine());
         int index = -1;
         Console.WriteLine();
@@ -132,7 +132,7 @@ while (true)
         {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine(" ------ Output --------------------------------------------");
-            Console.WriteLine(" Needed number Not found in list                           ");
+            Console.WriteLine(" Needed number Not found in the list                           ");
             Console.WriteLine(" ----------------------------------------------------------");
             Console.WriteLine();
             Console.ResetColor();
@@ -157,7 +157,7 @@ while (true)
         Console.WriteLine();
     }
 
-    // Quit fro the programe
+    // Quit from the programe
     else if (choice == "Q")
     {
         break;
