@@ -18,10 +18,10 @@
                 Console.WriteLine("7. Show All Instructors");
                 Console.WriteLine("8. Find Student by ID or Name");
                 Console.WriteLine("9. Find Course by ID or Name");
-                Console.WriteLine("10. Exit");
-                Console.WriteLine("11. Check if Student is Enrolled in Specific Course");
-                Console.WriteLine("12. Get Instructor Name by Course Title");
-                Console.Write("Enter choice (from 1 to 12: ");
+                Console.WriteLine("10. Check if Student is Enrolled in Specific Course");
+                Console.WriteLine("11. Get Instructor Name by Course Title");
+                Console.WriteLine("12. Exit");
+                Console.Write("Enter choice (from 1 to 12): ");
 
                 string choice = Console.ReadLine();
                 Console.WriteLine();
